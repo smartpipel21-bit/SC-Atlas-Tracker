@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SC Atlas Tracker</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #0b0d12;
+    --card: #151821;
+    --text: #e9ecf1;
+    --muted: #8b93a3;
+    --accent: #5b8cff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif;
+  }
+  .card {
+    max-width: 560px;
+    width: 90%;
+    background: var(--card);
+    border-radius: 16px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.35);
+  }
+  h1 { margin: 0 0 8px; font-size: 1.5rem; }
+  p { color: var(--muted); line-height: 1.5; margin: 8px 0; }
+  .badge {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: rgba(91,140,255,0.15);
+    color: var(--accent);
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+  #updated { color: var(--muted); font-size: 0.8rem; margin-top: 24px; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>SC Atlas Tracker</h1>
+    <p>This dashboard is scaffolded and connected to its daily update pipeline.</p>
+    <p>Real content will appear here once the data source is configured.</p>
+    <span class="badge">Awaiting first data update</span>
+    <div id="updated">Loading status…</div>
+  </div>
+  <script>
+    fetch('data/latest.json')
+      .then(r => r.json())
+      .then(d => {
+        document.getElementById('updated').textContent =
+          'Last updated: ' + new Date(d.updated_at).toLocaleString();
+      })
+      .catch(() => {
+        document.getElementById('updated').textContent = '';
+      });
+  </script>
+</body>
+</html>
