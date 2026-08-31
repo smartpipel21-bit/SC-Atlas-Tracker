@@ -1,0 +1,180 @@
+{
+  "run_date": "2026-08-31",
+  "run_note": "Third run on this calendar date. Previous run's audit log (data/audit_log/2026-08-31-run2.json) completed at window-end 2026-08-31T13:33:00+09:00. This run's window runs to 2026-08-31T15:29:00+09:00 (~1h56m later) -- narrow window is expected given how recently the prior run completed. Filed under a distinct name (-run3) rather than overwriting either earlier same-day audit log, to preserve all three runs' audit trails.",
+  "window": {
+    "from": "2026-08-31T13:33:00+09:00",
+    "to": "2026-08-31T15:29:00+09:00",
+    "tz": "Asia/Seoul"
+  },
+  "queries_run": [
+    {"tier": 1, "lang": "en", "query": "Halozyme ENHANZE Hypercon subcutaneous August 2026"},
+    {"tier": 1, "lang": "en", "query": "Alteogen ALT-B4 Hybrozyme license August 2026"},
+    {"tier": 1, "lang": "en", "query": "(Xeris XeriJect | Lindy Microglassification | Nanoform | Crystalomics | InventageLab | Prestige IDC224) subcutaneous"},
+    {"tier": 1, "lang": "ko", "query": "할로자임 인핸즈 하이퍼콘 고농도"},
+    {"tier": 1, "lang": "ko", "query": "알테오젠 ALT-B4 기술수출"},
+    {"tier": 1, "lang": "ko", "query": "삼성바이오에피스 셀트리온 SC 제형 고농도"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration subcutaneous injection\" technology deal August 2026"},
+    {"tier": 2, "lang": "en", "query": "\"ultra-concentrated antibody formulation\" 2026"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration injection\" biologics platform deal 2026"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration suspension injection technology\""},
+    {"tier": 2, "lang": "en", "query": "subcutaneous biologics delivery platform deal August 2026"},
+    {"tier": 2, "lang": "ko", "query": "고농도 주사 기술 고농축 현탁 주사 기술"},
+    {"tier": 3, "lang": "en", "query": "Dupixent dupilumab subcutaneous high concentration August 2026"},
+    {"tier": 3, "lang": "ko", "query": "듀피젠트 피하주사 고농도"},
+    {"tier": 3, "lang": "en", "query": "Registry: Hypercon / ALT-B4 / XeriJect FDA filing clinical trial August 2026"},
+    {"tier": 4, "lang": "ko", "query": "DART: 알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시"},
+    {"tier": 4, "lang": "ko", "query": "식약처 고농도 피하주사 허가 (MFDS) / 특허청 히알루로니다제 고농도 제형 (KIPO)"},
+    {"tier": 4, "lang": "ko", "query": "국산 고농도 항체 제형 기술수출 (native-phrasing broad sweep)"}
+  ],
+  "candidates": [
+    {
+      "raw_title": "Halozyme Announces Global Collaboration and License Agreement with Incyte to Support the Development of Subcutaneous Formulations of INCA033989 Using its ENHANZE Technology",
+      "published": "2026-07-14",
+      "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "ENHANZE licensing event bearing directly on Halozyme's SC concentration/volume platform footprint.",
+      "verdict": "reject", "reject_reason": "Out of window (published 2026-07-14, well before window start 2026-08-31T13:33 KST) AND already logged as deal_id halozyme_incyte_2026-07 -- duplicate at event level.",
+      "event_key": "halozyme_incyte_2026-07", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen Licenses Subcutaneous Platform to Undisclosed Global Pharma Company in Deal Worth Up to $365 Million",
+      "published": "2026-08-05",
+      "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "Hybrozyme/ALT-B4 license event bearing on Alteogen's SC volume-reduction platform footprint.",
+      "verdict": "reject", "reject_reason": "Out of window (2026-08-05) AND already logged as deal_id alteogen_undisclosed-pharma_2026-08 -- duplicate.",
+      "event_key": "alteogen_undisclosed-pharma_2026-08", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "알테오젠, ALT-B4 기술수출 체결 (Biogen, GSK/Tesaro coverage)",
+      "published": "2026-03 / 2026-01",
+      "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "Hybrozyme/ALT-B4 licensing footprint.",
+      "verdict": "reject", "reject_reason": "Out of window AND already logged as deal_id alteogen_biogen_2026-03 and alteogen_gsk-tesaro_2026-01 -- duplicates, retrieved as background in this run's search only.",
+      "event_key": "alteogen_biogen_2026-03 / alteogen_gsk-tesaro_2026-01", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "XERIJECT: Non-Aqueous Formulations for SC Injection of Ultra-High-Concentration Biologics (ONdrugDelivery explainer)",
+      "published": null,
+      "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "secondary",
+      "gate_d": "new", "gate_e": "n/a - failed Gate B",
+      "verdict": "reject", "reject_reason": "Undated technology explainer, not a discrete dated event.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Lindy Biosciences Microglassification / Novartis collaboration (European Pharmaceutical Review, EMJ coverage)",
+      "published": "2024-08-27",
+      "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "Microglassification licensing footprint.",
+      "verdict": "reject", "reject_reason": "Out of window (2024-08-27) AND already logged as deal_id lindy_novartis_2024-08 -- duplicate, different outlet re-covering the same 2024 deal.",
+      "event_key": "lindy_novartis_2024-08", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Crystalomics (Althea/Ajinomoto) technology overview",
+      "published": null,
+      "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "secondary",
+      "gate_d": "new", "gate_e": "n/a - failed Gate B",
+      "verdict": "reject", "reject_reason": "Undated technology explainer, not a discrete dated event.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Prestige Biopharma IDC Files Patent for IDC224 Antibody Delivery Platform",
+      "published": null,
+      "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "IDC224 platform IP footprint.",
+      "verdict": "reject", "reject_reason": "Already-tracked technology (prestige_biopharma_idc224); no new dated event distinct from existing row surfaced.",
+      "event_key": "prestige_biopharma_idc224", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Nanoform Signs First Exclusivity Agreement for Ultra-High Concentration Subcutaneous Delivery",
+      "published": "2026-05-12",
+      "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "Nanoforming platform licensing footprint.",
+      "verdict": "reject", "reject_reason": "Out of window (2026-05-12) AND already logged as deal_id nanoform_partner_2026 -- duplicate.",
+      "event_key": "nanoform_partner_2026", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme Announces Global Collaboration and License Agreement with Vertex Pharmaceuticals for Hypercon Technology",
+      "published": "2026-04",
+      "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "Hypercon platform licensing footprint.",
+      "verdict": "reject", "reject_reason": "Out of window AND already logged as deal_id halozyme_vertex_2026-04 -- duplicate.",
+      "event_key": "halozyme_vertex_2026-04", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Altruist Biologics Launches Altru-CON High-Concentration Formulation Platform",
+      "published": "2026-03",
+      "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "New, currently-untracked high-concentration SC/IV formulation platform (up to 200 mg/mL, >2x viscosity reduction) from an Innovent Biologics-affiliated CDMO -- directly on-topic for the tracker's core question even though not yet a tracker row.",
+      "verdict": "context", "reject_reason": "Out of window (published March 2026, ~5 months before this run's window) and no existing tracker row to correct -- logged as context only per Step 1.1. Flagged in final report as a candidate new technology for a future run to formally onboard.",
+      "event_key": "altruist_biologics_altru-con", "canonical": true, "corroborating_urls": ["https://www.prnewswire.com/news-releases/altruist-biologics-launches-altru-con-high-concentration-formulation-platform-to-accelerate-biologics-development-302702651.html"]
+    },
+    {
+      "raw_title": "아미코젠, 기존 특허 장벽 돌파한 인간 히알루로니다제 개발 가속화 (Amicogen next-gen human hyaluronidase, skin-derived, designed around Halozyme/Alteogen PH20 patents)",
+      "published": "2024-09 (initial filing) through 2026-08 (development-acceleration coverage; exact August date unresolved -- egress-blocked on edaily.co.kr/mdtoday.co.kr to confirm)",
+      "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary",
+      "gate_d": "new", "gate_e": "New, currently-untracked Korean human-hyaluronidase competitor explicitly positioned to bypass Halozyme ENHANZE / Alteogen ALT-B4 patents for SC high-concentration delivery -- directly on-topic.",
+      "verdict": "context", "reject_reason": "No existing tracker row for Amicogen to correct; most recent coverage's exact date could not be confirmed (WebFetch blocked by egress proxy for edaily.co.kr and mdtoday.co.kr) so it cannot be confirmed as falling inside this run's ~2h window even if very recent -- held to context-only pending a primary-source date confirmation in a future run. Flagged in final report as a second candidate new technology.",
+      "event_key": "amicogen_human_hyaluronidase", "canonical": true, "corroborating_urls": [
+        "https://www.newspim.com/news/view/20260721000151",
+        "https://www.hitnews.co.kr/news/articleView.html?idxno=53227",
+        "https://pharm.edaily.co.kr/news/read?newsId=03056966639016840"
+      ]
+    },
+    {
+      "raw_title": "MFDS approval: Alhemo (concizumab) prefilled pen, once-daily SC hemophilia treatment",
+      "published": null,
+      "lang": "ko",
+      "gate_a": "reject", "gate_b": "pass", "gate_c": "secondary",
+      "gate_d": "new", "gate_e": "n/a - failed Gate A",
+      "verdict": "reject", "reject_reason": "Device-only SC approval with no concentration/volume claim surfaced in coverage -- standing ruling reject per Gate A.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "MFDS approval: Kintelles (vedolizumab) prefilled pen, SC reformulation of an IV product",
+      "published": null,
+      "lang": "ko",
+      "gate_a": "reject", "gate_b": "pass", "gate_c": "secondary",
+      "gate_d": "new", "gate_e": "n/a - failed Gate A",
+      "verdict": "reject", "reject_reason": "Device-only IV-to-SC conversion with no concentration/volume claim surfaced in coverage -- standing ruling reject per Gate A.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Sanofi/Regeneron Phase 1: SC dupilumab coformulated with berahyaluronidase alfa (NCT07646548)",
+      "published": "2026-06-11 (trial start)",
+      "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "Direct Dupixent-benchmark SC high-concentration reformulation trial -- core to the tracker's Dupixent benchmark comparison.",
+      "verdict": "reject", "reject_reason": "Out of window (trial start 2026-06-11); need to confirm whether this NCT is already tracked among existing Sanofi/Dupixent-adjacent rows before a future run logs it as new.",
+      "event_key": "sanofi_dupixent_berahyaluronidase_phase1", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "DART / Korean market commentary roundup on Alteogen, Samsung Biologics, Samsung Bioepis, Celltrion stock moves",
+      "published": null,
+      "lang": "ko",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "secondary",
+      "gate_d": "new", "gate_e": "n/a - failed Gate B",
+      "verdict": "reject", "reject_reason": "Stock-movement / market commentary, not a discrete dated licensing or disclosure event; no new DART filing surfaced beyond already-tracked rows.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "TG Therapeutics BRIUMVI (ublituximab) Phase 1 high-concentration SC formulation results",
+      "published": "2026-06",
+      "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "In-house high-concentration SC reformulation trial readout -- on-topic formulation-science event, though not tied to any of the 27 tracked delivery-technology platforms (own in-house formulation work).",
+      "verdict": "context", "reject_reason": "Out of window (June 2026); worth a future run's targeted look to determine whether TG's in-house formulation approach merits its own tracker row.",
+      "event_key": "tg_therapeutics_briumvi_hc_sc_phase1", "canonical": true, "corroborating_urls": []
+    }
+  ],
+  "findings": []
+}
