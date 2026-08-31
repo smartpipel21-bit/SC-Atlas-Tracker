@@ -194,6 +194,11 @@ def main():
             "is_reference": False,
         })
 
+    # Newest-reviewed first, so the dashboard table and the daily digest
+    # agree on what's "new" without either one re-deriving order on its own.
+    # Entries with no last_reviewed (shouldn't normally happen) sort last.
+    technologies.sort(key=lambda r: r["last_reviewed"] or "", reverse=True)
+
     # ---------------- internal targets / reference products ----------------
     internal_targets = []
     for t in internal_cfg.get("internal_targets", []):
