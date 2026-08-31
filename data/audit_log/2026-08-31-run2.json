@@ -1,0 +1,165 @@
+{
+  "run_date": "2026-08-31",
+  "run_note": "Second run on this calendar date. The previous run's audit log (data/audit_log/2026-08-31.json) completed at window-end 2026-08-31T12:49:00+09:00, roughly 34 minutes before this run started -- hence the unusually narrow window below rather than the usual ~24h. Filed under a distinct name (-run2) rather than overwriting the earlier same-day audit log, to preserve both runs' audit trails.",
+  "window": {
+    "from": "2026-08-31T12:49:00+09:00",
+    "to": "2026-08-31T13:33:00+09:00",
+    "tz": "Asia/Seoul"
+  },
+  "queries_run": [
+    {"tier": 1, "lang": "en", "query": "Halozyme ENHANZE Hypercon subcutaneous this week"},
+    {"tier": 1, "lang": "en", "query": "Alteogen ALT-B4 Hybrozyme license this week"},
+    {"tier": 1, "lang": "en", "query": "(Xeris XeriJect | Lindy Microglassification | Nanoform | Crystalomics | InventageLab | Prestige IDC224) subcutaneous this week"},
+    {"tier": 1, "lang": "ko", "query": "할로자임 인핸즈 하이퍼콘 고농도"},
+    {"tier": 1, "lang": "ko", "query": "알테오젠 ALT-B4 기술수출"},
+    {"tier": 1, "lang": "ko", "query": "삼성바이오에피스 셀트리온 SC 제형 고농도"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration subcutaneous injection\""},
+    {"tier": 2, "lang": "en", "query": "\"ultra-concentrated antibody formulation\""},
+    {"tier": 2, "lang": "en", "query": "\"high concentration injection\" biologics platform deal"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration suspension injection technology\""},
+    {"tier": 2, "lang": "en", "query": "subcutaneous biologics delivery platform deal (this week) / hyaluronidase SC formulation deal 2026"},
+    {"tier": 2, "lang": "ko", "query": "고농도 주사 기술 / 고농축 현탁 주사 기술"},
+    {"tier": 3, "lang": "en", "query": "Dupixent dupilumab subcutaneous high concentration this week"},
+    {"tier": 3, "lang": "ko", "query": "듀피젠트 피하주사 고농도"},
+    {"tier": 3, "lang": "en", "query": "Registry: FDA.gov / ClinicalTrials.gov for tracked technologies (Hypercon, ALT-B4/Hybrozyme, XeriJect, ENHANZE) expected filings/trials"},
+    {"tier": 4, "lang": "ko", "query": "DART: 알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시"},
+    {"tier": 4, "lang": "ko", "query": "식약처 고농도 피하주사 허가 (MFDS) / 특허청 히알루로니다제 고농도 제형 (KIPO)"},
+    {"tier": 4, "lang": "ko", "query": "국산 고농도 항체 제형 기술수출 (native-phrasing broad sweep)"}
+  ],
+  "candidates": [
+    {
+      "raw_title": "Halozyme Announces Global Collaboration and License Agreement with Incyte to Support the Development of Subcutaneous Formulations of INCA033989 Using its ENHANZE Technology",
+      "published": "2026-07-20", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new",
+      "gate_e": "New ENHANZE partner (Incyte, INCA033989 for MPNs, option on 2 more targets) extends Halozyme's high-concentration SC hyaluronidase platform, reinforcing ENHANZE/Halozyme as the leading external benchmark vs. Hyperion/Thermicra.",
+      "verdict": "context", "reject_reason": "Published 2026-07-20, well outside this run's ~34-minute window (2026-08-31T12:49-13:33 KST). Already outside window in the prior run too.",
+      "event_key": "halozyme_incyte_inca033989_enhanze_2026-07-20", "canonical": true,
+      "corroborating_urls": [
+        "https://www.nasdaq.com/press-release/halozyme-announces-global-collaboration-and-license-agreement-incyte-support",
+        "https://www.biopharminternational.com/view/halozyme-incyte-enhanze-collaboration-subcutaneous-inca033989-mpns"
+      ],
+      "source_url": "https://www.prnewswire.com/news-releases/halozyme-announces-global-collaboration-and-license-agreement-with-incyte-to-support-the-development-of-subcutaneous-formulations-of-inca033989-using-its-enhanze-technology-302829283.html",
+      "source_name": "PR Newswire (Halozyme)"
+    },
+    {
+      "raw_title": "Alteogen Announces Exclusive License Agreement with a Global Pharmaceutical Company for the Development and Commercialization of a Hybrozyme-Enabled Subcutaneous Biologic Product",
+      "published": "2026-08-05", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new",
+      "gate_e": "Alteogen's third ALT-B4 licensing deal of the year (up to $365M, undisclosed partner) further validates Hybrozyme as a scaling external hyaluronidase-based SC platform competing with ENHANZE.",
+      "verdict": "context", "reject_reason": "Published 2026-08-05, outside this run's window.",
+      "event_key": "alteogen_altb4_undisclosed_pharma_365m_2026-08-05", "canonical": true,
+      "corroborating_urls": [
+        "https://www.biopharminternational.com/view/alteogen-alt-b4-hybrozyme-subcutaneous-license-deal-365-million",
+        "https://mbiz.heraldcorp.com/article/10831089",
+        "https://www.koreabiomed.com/news/articleView.html?idxno=32666"
+      ],
+      "source_url": "https://www.prnewswire.com/news-releases/alteogen-announces-exclusive-license-agreement-with-a-global-pharmaceutical-company-for-the-development-and-commercialization-of-a-hybrozyme-enabled-subcutaneous-biologic-product-302843463.html",
+      "source_name": "PR Newswire (Alteogen)"
+    },
+    {
+      "raw_title": "휴온스랩, '하이디퓨즈' 적용 11종 항체 조성물 국내외 특허 등록",
+      "published": "2026-08-31T08:52:00+09:00", "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "correction",
+      "gate_e": "Huons Lab registered domestic + PCT patents covering HyDiffuse-enabled SC compositions for 11 named antibodies, claiming 113-170% higher Cmax vs non-HyDiffuse SC -- a concrete IP/data event on an already-tracked hyaluronidase-based large-volume SC platform.",
+      "verdict": "reject",
+      "reject_reason": "Published ~08:52-08:56 KST 2026-08-31, before this run's window start (12:49 KST) and within minutes of the immediately preceding run's window end (also 12:49 KST). This is the same event already logged as deal huonslab_hydiffuze_11ab_patent_2026-08-31 in the prior run today (commit 483e5ec) -- not a new occurrence inside this run's window. Confirmed already present in data/deals_db.py before this run started.",
+      "event_key": "huonslab_hydiffuze_11ab_patent_2026-08-31", "canonical": true,
+      "corroborating_urls": [
+        "https://www.rapportian.com/news/articleView.html?idxno=239847",
+        "https://www.mt.co.kr/thebio/2026/08/31/2026083108564041969",
+        "https://www.hankyung.com/article/202608312684i",
+        "https://www.thebionews.net/news/articleView.html?idxno=27644",
+        "https://www.sedaily.com/article/20085064"
+      ],
+      "source_url": "https://view.asiae.co.kr/article/2026083108521521161",
+      "source_name": "Asia Economy (아시아경제)"
+    },
+    {
+      "raw_title": "Altruist Biologics Launches Altru-CON High-Concentration Formulation Platform to Accelerate Biologics Development",
+      "published": "2026-03-04", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new",
+      "gate_e": "Altru-CON is a previously-untracked CDMO high-concentration (up to 200 mg/mL, >2x viscosity reduction) SC formulation platform from an Innovent Biologics subsidiary -- a candidate new competitor for the tracked-entity roster, but not a dated event inside this window.",
+      "verdict": "context", "reject_reason": "Published 2026-03-04, well outside this run's window. Worth a dedicated follow-up query on a normal-length run to assess for addition as a new tracked technology.",
+      "event_key": "altruist_biologics_altrucon_launch_2026-03-04", "canonical": true,
+      "corroborating_urls": [
+        "https://www.scientistlive.com/altruist-biologics-launches-altru-con-high-concentration-formulation-platform/",
+        "https://pharmasource.global/content/news/cdmo-news/altruist-biologics-launches-altru-con-platform-enabling-biologics-concentrations-up-to-200-mg-ml/"
+      ],
+      "source_url": "https://www.prnewswire.com/news-releases/altruist-biologics-launches-altru-con-high-concentration-formulation-platform-to-accelerate-biologics-development-302702651.html",
+      "source_name": "PR Newswire / BioSpace (Altruist Biologics)"
+    },
+    {
+      "raw_title": "아미코젠, 피하주사 제형용 인간 히알루로니다제 특허 출원 (neutral-pH-active human hyaluronidase, distinct from PH20 IP)",
+      "published": null, "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": "Amicogen is developing a novel neutral-pH-active human hyaluronidase outside the Halozyme/Alteogen PH20 patent family for SC formulation -- a possible new enabling-tech competitor in the hyaluronidase-mediated high-concentration/large-volume space.",
+      "verdict": "context",
+      "reject_reason": "No dated event within or near this window; underlying patent-filing article predates 2026 (~2024-09) with no fresh corroborating activity today. Flagged for reviewer as a possible new-competitor addition to assess on a normal-length run.",
+      "event_key": "amicogen_neutral_ph_hyaluronidase_patent", "canonical": true,
+      "corroborating_urls": ["https://news.mt.co.kr/mtview.php?no=2024090410383918562"],
+      "source_url": "https://pharm.edaily.co.kr/news/read?newsId=03056966639016840",
+      "source_name": "Edaily Pharm"
+    },
+    {
+      "raw_title": "DUPIXENT (dupilumab) subcutaneous PK / label background",
+      "published": null, "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "primary", "gate_d": "new",
+      "gate_e": "n/a -- rejected at Gate B",
+      "verdict": "reject",
+      "reject_reason": "No discrete new dated event found for Dupixent SC concentration/delivery in-window; only existing FDA label (175 mg/mL, 150 mg/mL formulations) and PK literature -- evergreen background, not a new occurrence.",
+      "event_key": "dupixent_sc_background_no_event", "canonical": true,
+      "corroborating_urls": [],
+      "source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/761055s070lbl.pdf",
+      "source_name": "FDA label"
+    },
+    {
+      "raw_title": "Alhemo (concizumab) / Entyvio (Kintales) Korean SC approvals",
+      "published": null, "lang": "ko",
+      "gate_a": "reject", "gate_b": "reject", "gate_c": "unverified", "gate_d": "new",
+      "gate_e": "n/a -- rejected at Gate A",
+      "verdict": "reject",
+      "reject_reason": "Device-only SC formulation approvals with no stated concentration/volume claim -- explicitly excluded by the Gate A standing ruling on device-only SC conversions with no concentration/volume claim.",
+      "event_key": "kr_mfds_sc_approvals_no_concentration_claim", "canonical": true,
+      "corroborating_urls": ["https://www.kpanews.co.kr/news/articleView.html?idxno=535858", "https://www.pharmnews.com/news/articleView.html?idxno=201308"],
+      "source_url": "https://www.mdon.co.kr/news/article.html?no=32528",
+      "source_name": "MFDS-adjacent trade press"
+    },
+    {
+      "raw_title": "General academic/review literature on high-concentration/ultra-concentrated SC antibody formulation (ScienceDirect, Tandfonline, ionic-liquid and microparticle-suspension reviews)",
+      "published": null, "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "primary", "gate_d": "new",
+      "gate_e": "n/a -- rejected at Gate B",
+      "verdict": "reject",
+      "reject_reason": "Undated general review/background science articles, not discrete dated events tied to a specific named platform, deal, filing, or trial.",
+      "event_key": "general_hcsc_literature_no_event", "canonical": true,
+      "corroborating_urls": [],
+      "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0169409X26000979",
+      "source_name": "ScienceDirect (various)"
+    },
+    {
+      "raw_title": "DART filing search (Alteogen/Celltrion/Samsung Bioepis/Samsung Biologics tech-transfer disclosures)",
+      "published": null, "lang": "ko",
+      "gate_a": "n/a", "gate_b": "reject", "gate_c": "unverified", "gate_d": "new",
+      "gate_e": "n/a -- no candidate document surfaced",
+      "verdict": "reject",
+      "reject_reason": "General web search does not index dart.fss.or.kr's filing search directly; only generic commentary pages returned. No candidate document to log.",
+      "event_key": "dart_filing_search_no_candidate", "canonical": true,
+      "corroborating_urls": [],
+      "source_url": "https://dart.fss.or.kr/",
+      "source_name": "DART (금융감독원 전자공시시스템)"
+    },
+    {
+      "raw_title": "KIPO general hyaluronidase/high-concentration antibody formulation patent search (KR20110067067A, KR101247418B1, KR20200034739A, etc.)",
+      "published": null, "lang": "ko",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "primary", "gate_d": "new",
+      "gate_e": "n/a -- rejected at Gate B",
+      "verdict": "reject",
+      "reject_reason": "Search surfaced only older, generic granted-patent documents with no dated filing/grant event within or near this window and no attribution to a tracked or new named competitor program.",
+      "event_key": "kipo_generic_patent_search_no_event", "canonical": true,
+      "corroborating_urls": [],
+      "source_url": "https://patents.google.com/patent/KR20200034739A/ko",
+      "source_name": "Google Patents / KIPO"
+    }
+  ],
+  "findings": []
+}
