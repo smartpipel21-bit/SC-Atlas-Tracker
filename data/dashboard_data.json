@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-28T01:48:13+00:00",
+  "generated_at": "2026-08-31T03:54:32+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
   },
-  "last_updated": "2026-08-27",
+  "last_updated": "2026-08-31",
   "stage_order": [
     "Research / Academic",
     "Preclinical",
@@ -34,6 +34,7 @@
     "Genentech / Roche",
     "Halozyme Therapeutics",
     "Halozyme Therapeutics (via Elektrofi acquisition)",
+    "Huons Lab (휴온스랩)",
     "InventageLab",
     "Lindy Biosciences",
     "Nanoform Finland Oyj",
@@ -53,10 +54,10 @@
     "Not disclosed"
   ],
   "counts": {
-    "tracked": 25,
+    "tracked": 26,
     "comparable": 15,
     "commercial": 8,
-    "deals_tracked": 44,
+    "deals_tracked": 45,
     "flagged_deals": 5
   },
   "internal_targets": [
@@ -1221,6 +1222,40 @@
           "relevance": "Medium",
           "confidence": "Primary",
           "flagged": false,
+          "new_in_digest": false
+        }
+      ],
+      "is_internal": false,
+      "is_reference": false
+    },
+    {
+      "id": "huonslab_hydiffuze",
+      "name": "HyDiffuse (rHuPH20-based SC delivery platform)",
+      "company": "Huons Lab (휴온스랩)",
+      "stage_raw": "Preclinical / Platform (composition patents registered for 11 antibody drugs; lead standalone enzyme product HYDIZYME in BLA review at MFDS)",
+      "stage_bucket": "Platform / Feasibility",
+      "type": "Enzyme-assisted",
+      "concentration_text": "Not disclosed numerically as mg/mL; nonclinical PK data show HyDiffuse co-formulation increases Cmax by ~113-170% and AUC by ~117-162% vs. the antibody alone, across the 11 antibodies studied",
+      "concentration_numeric": null,
+      "concentration_bucket": "Not disclosed",
+      "needle_size": "Not disclosed",
+      "mechanism": "Proprietary recombinant human hyaluronidase (rHuPH20)-based platform, positioned as an independently developed competitor to Halozyme's ENHANZE, Alteogen's ALT-B4/Hybrozyme, and Samsung Bioepis' PH20-based technology. Temporarily degrades subcutaneous hyaluronic acid to enable diffusion/absorption of a co-administered antibody, permitting IV-to-SC conversion. Domestic (Korea) and international (PCT) composition patents now registered covering SC co-formulations with 11 named antibodies: pembrolizumab, bevacizumab, obinutuzumab, ramucirumab, donanemab, isatuximab, durvalumab, dostarlimab, cetuximab, risankizumab, and dupilumab -- the dupilumab entry directly overlaps this tracker's Dupixent benchmark. Separately, Huons Lab's standalone rHuPH20 enzyme product HYDIZYME is in BLA review at Korea's MFDS.",
+      "date_added": "2026-08-31",
+      "last_reviewed": "2026-08-31",
+      "deals": [
+        {
+          "deal_id": "huonslab_hydiffuze_11antibody-patent_2026-08-31",
+          "partner": "N/A (patent registration; Korean IP office + international/PCT)",
+          "deal_type": "Patent registration",
+          "date": "2026-08-31",
+          "date_sort_key": 20260831,
+          "summary": "Huons Lab registered domestic (Korea) and international (PCT) composition patents covering SC formulations of 11 antibody drugs (pembrolizumab, bevacizumab, obinutuzumab, ramucirumab, donanemab, isatuximab, durvalumab, dostarlimab, cetuximab, risankizumab, dupilumab) co-formulated with its proprietary HyDiffuse rHuPH20 platform. Nonclinical PK studies reported ~113-170% higher Cmax and ~117-162% higher AUC for the HyDiffuse-coformulated antibodies vs. the antibody alone. Company plans to pursue country-specific filings next. First tracker entry for Huons Lab; positions it as a new in-house hyaluronidase-platform competitor to Halozyme ENHANZE, Alteogen ALT-B4/Hybrozyme, and Samsung Bioepis' PH20 technology, and -- via the dupilumab composition claim -- a potential direct competitor angle on the Dupixent benchmark. No primary company press release found for this specific event despite an extra search (Huons Lab has issued BusinessWire/BioSpace releases for earlier HyDiffuse milestones in 2026); logged as Secondary on the strength of seven independent corroborating Korean trade-press outlets reporting consistent detail same-day.",
+          "molecule": "Pembrolizumab, bevacizumab, obinutuzumab, ramucirumab, donanemab, isatuximab, durvalumab, dostarlimab, cetuximab, risankizumab, dupilumab (11 antibodies, composition patent)",
+          "source_name": "머니투데이 더바이오 (Money Today TheBio); corroborated by 한국경제 (Hankyung), 더페어, 아시아경제, 아주경제, 더바이오뉴스 (thebionews.net), 인사이트코리아",
+          "source_url": "https://www.mt.co.kr/thebio/2026/08/31/2026083108564041969",
+          "relevance": "High",
+          "confidence": "Secondary",
+          "flagged": false,
           "new_in_digest": true
         }
       ],
@@ -1229,6 +1264,23 @@
     }
   ],
   "recent_activity": [
+    {
+      "deal_id": "huonslab_hydiffuze_11antibody-patent_2026-08-31",
+      "partner": "N/A (patent registration; Korean IP office + international/PCT)",
+      "deal_type": "Patent registration",
+      "date": "2026-08-31",
+      "date_sort_key": 20260831,
+      "summary": "Huons Lab registered domestic (Korea) and international (PCT) composition patents covering SC formulations of 11 antibody drugs (pembrolizumab, bevacizumab, obinutuzumab, ramucirumab, donanemab, isatuximab, durvalumab, dostarlimab, cetuximab, risankizumab, dupilumab) co-formulated with its proprietary HyDiffuse rHuPH20 platform. Nonclinical PK studies reported ~113-170% higher Cmax and ~117-162% higher AUC for the HyDiffuse-coformulated antibodies vs. the antibody alone. Company plans to pursue country-specific filings next. First tracker entry for Huons Lab; positions it as a new in-house hyaluronidase-platform competitor to Halozyme ENHANZE, Alteogen ALT-B4/Hybrozyme, and Samsung Bioepis' PH20 technology, and -- via the dupilumab composition claim -- a potential direct competitor angle on the Dupixent benchmark. No primary company press release found for this specific event despite an extra search (Huons Lab has issued BusinessWire/BioSpace releases for earlier HyDiffuse milestones in 2026); logged as Secondary on the strength of seven independent corroborating Korean trade-press outlets reporting consistent detail same-day.",
+      "molecule": "Pembrolizumab, bevacizumab, obinutuzumab, ramucirumab, donanemab, isatuximab, durvalumab, dostarlimab, cetuximab, risankizumab, dupilumab (11 antibodies, composition patent)",
+      "source_name": "머니투데이 더바이오 (Money Today TheBio); corroborated by 한국경제 (Hankyung), 더페어, 아시아경제, 아주경제, 더바이오뉴스 (thebionews.net), 인사이트코리아",
+      "source_url": "https://www.mt.co.kr/thebio/2026/08/31/2026083108564041969",
+      "relevance": "High",
+      "confidence": "Secondary",
+      "flagged": false,
+      "new_in_digest": true,
+      "technology_id": "huonslab_hydiffuze",
+      "technology_name": "HyDiffuse (rHuPH20-based SC delivery platform)"
+    },
     {
       "deal_id": "eisai_biogen_leqembiiqlik_launch_2026-08-24",
       "partner": "N/A (commercial launch; Eisai/Biogen own product)",
@@ -1242,7 +1294,7 @@
       "relevance": "Medium",
       "confidence": "Primary",
       "flagged": false,
-      "new_in_digest": true,
+      "new_in_digest": false,
       "technology_id": "eisai_biogen_leqembi_iqlik_sc",
       "technology_name": "LEQEMBI IQLIK (lecanemab-irmb SC autoinjector formulation)"
     },
@@ -1466,23 +1518,6 @@
       "new_in_digest": false,
       "technology_id": "alt-b4_hybrozyme",
       "technology_name": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)"
-    },
-    {
-      "deal_id": "genentech_lunsumio_2026-06",
-      "partner": "FDA (regulatory)",
-      "deal_type": "Regulatory filing",
-      "date": "2026-06-01",
-      "date_sort_key": 20260601,
-      "summary": "sBLA accepted for Lunsumio VELO (SC mosunetuzumab) + Polivy combination, R/R large B-cell lymphoma. FDA decision expected ~Feb 2027.",
-      "molecule": "Mosunetuzumab",
-      "source_name": "Genentech Press Releases",
-      "source_url": "https://www.gene.com/media/press-releases/15117/2026-06-17/fda-accepts-supplemental-biologics-licen",
-      "relevance": "Medium",
-      "confidence": "Not assessed",
-      "flagged": false,
-      "new_in_digest": false,
-      "technology_id": "genentech_unbranded_sc",
-      "technology_name": "Proprietary SC reformulations (unbranded)"
     }
   ]
 }

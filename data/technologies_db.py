@@ -324,4 +324,17 @@ TECHNOLOGIES = [
         'date_added': '2026-08-27',
         'last_reviewed': '2026-08-27',
     },
+    {
+        'id': 'huonslab_hydiffuze',
+        'name': 'HyDiffuse (rHuPH20-based SC delivery platform)',
+        'company': 'Huons Lab (휴온스랩)',
+        'stage_raw': 'Preclinical / Platform (composition patents registered for 11 antibody drugs; lead standalone enzyme product HYDIZYME in BLA review at MFDS)',
+        'type': 'Enzyme-assisted',
+        'concentration_text': 'Not disclosed numerically as mg/mL; nonclinical PK data show HyDiffuse co-formulation increases Cmax by ~113-170% and AUC by ~117-162% vs. the antibody alone, across the 11 antibodies studied',
+        'concentration_numeric': None,
+        'needle_size': 'Not disclosed',
+        'mechanism': "Proprietary recombinant human hyaluronidase (rHuPH20)-based platform, positioned as an independently developed competitor to Halozyme's ENHANZE, Alteogen's ALT-B4/Hybrozyme, and Samsung Bioepis' PH20-based technology. Temporarily degrades subcutaneous hyaluronic acid to enable diffusion/absorption of a co-administered antibody, permitting IV-to-SC conversion. Domestic (Korea) and international (PCT) composition patents now registered covering SC co-formulations with 11 named antibodies: pembrolizumab, bevacizumab, obinutuzumab, ramucirumab, donanemab, isatuximab, durvalumab, dostarlimab, cetuximab, risankizumab, and dupilumab -- the dupilumab entry directly overlaps this tracker's Dupixent benchmark. Separately, Huons Lab's standalone rHuPH20 enzyme product HYDIZYME is in BLA review at Korea's MFDS.",
+        'date_added': '2026-08-31',
+        'last_reviewed': '2026-08-31',
+    },
 ]
