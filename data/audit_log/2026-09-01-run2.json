@@ -1,0 +1,242 @@
+{
+  "run_date": "2026-09-01",
+  "window": {
+    "from": "2026-08-31T15:29:00+09:00",
+    "to": "2026-09-01T09:13:00+09:00",
+    "tz": "Asia/Seoul",
+    "note": "Normal ~17.7h window anchored to the completion timestamp of the previous run (data/audit_log/2026-08-31-run3.json 'to' field). Today is a Tuesday with no gap since the last run, so no weekend/Monday extension applies."
+  },
+  "queries_run": [
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Halozyme ENHANZE Hypercon subcutaneous September 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Alteogen ALT-B4 Hybrozyme license September 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Xeris XeriJect OR Lindy Microglassification OR Nanoform OR Crystalomics OR InventageLab OR Prestige IDC224 subcutaneous 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "할로자임 인핸즈 하이퍼콘 고농도"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "알테오젠 ALT-B4 기술수출"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "삼성바이오에피스 셀트리온 SC 제형 고농도"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration subcutaneous injection\" September 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"ultra-concentrated antibody formulation\" 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration injection\" antibody biologics 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration suspension injection technology\""
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "subcutaneous biologics delivery platform deal September 2026 / hyaluronidase SC formulation deal 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "ko",
+      "query": "고농도 주사 기술 고농축 현탁 주사 기술"
+    },
+    {
+      "tier": 3,
+      "lang": "en",
+      "query": "Dupixent dupilumab subcutaneous high concentration September 2026"
+    },
+    {
+      "tier": 3,
+      "lang": "ko",
+      "query": "듀피젠트 피하주사 고농도"
+    },
+    {
+      "tier": 3,
+      "lang": "registry",
+      "query": "ClinicalTrials.gov / FDA.gov checks for tracked technologies (NCT07646548 dupilumab+berahyaluronidase alfa; Keytruda Qlex approval history) -- direct fetch to clinicaltrials.gov and fda.gov BLOCKED by network egress proxy this run; relied on WebSearch snippets only"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "식약처 고농도 피하주사 허가 / 특허청 히알루로니다제 고농도 제형"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "국산 고농도 항체 제형 기술수출"
+    },
+    {
+      "tier": "extra",
+      "lang": "ko",
+      "query": "알테오젠 셀트리온 삼성바이오 9월1일 공시"
+    },
+    {
+      "tier": "extra",
+      "lang": "ko",
+      "query": "할로자임 알테오젠 피하주사 오늘 뉴스"
+    },
+    {
+      "tier": "extra",
+      "lang": "ko",
+      "query": "인벤티지랩 지투지바이오 프레스티지바이오파마 SC 고농도 9월"
+    },
+    {
+      "tier": "extra",
+      "lang": "en",
+      "query": "Halozyme Alteogen Samsung Bioepis subcutaneous news today"
+    },
+    {
+      "tier": "extra",
+      "lang": "ko",
+      "query": "dart.fss.or.kr 알테오젠 기술이전 계약 체결 2026-09"
+    },
+    {
+      "tier": "extra",
+      "lang": "en",
+      "query": "Xeris Biopharma Lindy Biosciences Nanoform news September 1 2026"
+    },
+    {
+      "tier": "extra",
+      "lang": "en",
+      "query": "Celltrion Herzuma SC Samsung Bioepis Keytruda biosimilar SC news September 2026"
+    }
+  ],
+  "candidates": [
+    {
+      "raw_title": "휴온스랩, '하이디퓨즈' 항체 11종 피하주사 제형 특허 등록 (Huons Lab 11-antibody HyDiffuse composition patent)",
+      "published": "2026-08-31",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Directly extends Huons Lab's rHuPH20 enzyme-assisted SC platform, a competitor to ENHANZE/ALT-B4/Samsung Bioepis PH20, bearing on who can convert IV antibodies to SC.",
+      "verdict": "reject",
+      "reject_reason": "DUPLICATE at event level: this is the same event already logged in the prior run as deal_id 'huonslab_hydiffuze_11antibody-patent_2026-08-31' (data/deals_db.py). Resurfaced by today's search matrix because it is still within recent search recall, not because it is new.",
+      "event_key": "huonslab_hydiffuze_11antibody-patent_2026-08-31",
+      "canonical": false,
+      "corroborating_urls": [
+        "https://www.mt.co.kr/thebio/2026/08/31/2026083108564041969"
+      ]
+    },
+    {
+      "raw_title": "휴온스랩, '하이디퓨즈' 적용 ADC 피하주사 조성물 특허 등록 (Huons Lab HyDiffuse ADC-specific SC composition patent) / Huonslab Secures Patent for ADC Subcutaneous Formulation Incorporating 'HyDIFFUZE' Platform (BioSpace)",
+      "published": "2026-07-27",
+      "lang": "ko/en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "A distinct HyDiffuse composition patent specifically for ADC (not mAb) SC formulations, reporting AUC +126%/Cmax +149% nonclinical PK gains -- directly bears on whether Huons Lab's enzyme platform extends high-concentration SC delivery to ADCs.",
+      "verdict": "reject",
+      "reject_reason": "Out of window: publication date confirmed as 2026-07-27 (v.daum.net republish explicitly dated) via secondary corroboration (hankyung, rapportian, ebn, thebionews, medifonews, etoday, newsfreezone, biospace, allsci -- all consistent), well before window start 2026-08-31T15:29+09:00. Does not correct or contradict any existing tracked row (it is a new, additional Huons Lab patent distinct from the already-tracked 11-antibody composition patent), so Gate D's out-of-window correction exception does not apply. Direct WebFetch verification of biospace.com, thebionews.net, hankyung.com, pharm.edaily.co.kr, and allsci.com was blocked by the network egress proxy this run; date relied on WebSearch snippet corroboration only. Worth a dedicated targeted follow-up in a future run since it is a legitimate distinct technology event that was apparently missed by prior runs' windows.",
+      "event_key": "huonslab_hydiffuze_adc-patent_2026-07-27",
+      "canonical": false,
+      "corroborating_urls": [
+        "https://www.biospace.com/press-releases/huonslab-secures-patent-for-adc-subcutaneous-formulation-incorporating-hydiffuze-platform",
+        "https://v.daum.net/v/20260727154209180",
+        "https://www.hankyung.com/article/202607277444i"
+      ]
+    },
+    {
+      "raw_title": "NCT07646548 - Pharmacokinetics and Tolerability of Subcutaneous Dupilumab Coformulated With Berahyaluronidase Alfa and Dupilumab Without Berahyaluronidase Alfa in Healthy Participants (Sanofi/Regeneron)",
+      "published": null,
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "unverified",
+      "gate_d": "new",
+      "gate_e": "A Phase 1 trial testing Alteogen's ALT-B4 (berahyaluronidase alfa) co-formulated with Dupixent (dupilumab) -- directly extends the already-tracked alteogen_sanofi_2026-06 deal and bears squarely on the Dupixent benchmark comparison.",
+      "verdict": "reject",
+      "reject_reason": "Cannot confirm first-posted/last-update date. clinicaltrials.gov was BLOCKED by the network egress proxy this run (direct WebFetch and curl to the API both failed), and WebSearch snippets did not surface a first-posted date. Without a confirmed in-window timestamp this cannot be logged as a new finding per Gate C provenance requirements. Flagging for a follow-up run once clinicaltrials.gov access is available -- this is a high-relevance candidate once its date is confirmed.",
+      "event_key": "sanofi_dupilumab-alt-b4_nct07646548",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "FDA approves pembrolizumab and berahyaluronidase alfa-pmph for subcutaneous injection (KEYTRUDA QLEX, Merck) -- original approval and 2026 combination-indication approvals",
+      "published": "2025-09-19 (original approval); 2026-06-25 and 2026-07-10 (later combination-indication approvals)",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "KEYTRUDA QLEX is Alteogen's ALT-B4/Hybrozyme technology's first FDA-approved commercial product -- direct, major real-world validation of the enzyme-assisted SC conversion approach already central to this tracker.",
+      "verdict": "reject",
+      "reject_reason": "All confirmed dates (original approval 2025-09-19; combination approvals 2026-06-25 and 2026-07-10) fall well outside this run's window and do not correct or contradict an existing tracked row (the tracker currently has no dedicated technology/deal row for Keytruda Qlex at all -- it is only mentioned in passing inside two Samsung Bioepis deal summaries). Gate D's out-of-window exception applies only to corrections/contradictions of existing rows, not to filling a gap, so this cannot be logged under the routine window rule. NOTABLE GAP flagged in the final report for the tracker owner: recommend a deliberate backfill entry (technology + deal rows) for Keytruda Qlex outside the normal window-gated routine, since it is arguably the single most important commercial proof point for ALT-B4 and is currently invisible on the dashboard.",
+      "event_key": "merck_keytruda-qlex_fda-approval",
+      "canonical": true,
+      "corroborating_urls": [
+        "https://www.merck.com/news/fda-approves-mercks-keytruda-qlex-pembrolizumab-and-berahyaluronidase-alfa-pmph-injection-for-subcutaneous-use-in-adults-across-most-solid-tumor-indications-for-keytruda-pem/",
+        "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pembrolizumab-and-berahyaluronidase-alfa-pmph-subcutaneous-injection"
+      ]
+    },
+    {
+      "raw_title": "미 특허심판원, 할로자임 핵심 특허 무효 결정...MSD·알테오젠 유리해지나 (US PTAB invalidates a core Halozyme ENHANZE-related patent; favorable to MSD/Alteogen)",
+      "published": "2026-05-13",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "A PTAB decision reshaping the IP standing between Halozyme's ENHANZE and Alteogen's ALT-B4/Hybrozyme, both tracked technologies, bears on the competitive landscape between the two leading enzyme-assisted platforms.",
+      "verdict": "reject",
+      "reject_reason": "Out of window (dated 2026-05-13, almost 4 months before window start). Does not correct or contradict a specific existing tracked numeric/status claim (no existing row currently asserts the validity status of this specific Halozyme patent), so the Gate D out-of-window exception does not apply.",
+      "event_key": "halozyme-alteogen_ptab-patent-dispute_2026-05",
+      "canonical": true,
+      "corroborating_urls": [
+        "https://news.nate.com/view/20260513n24614",
+        "https://news.nate.com/view/20251212n13612"
+      ]
+    },
+    {
+      "raw_title": "Various undated/older academic review articles on high-concentration SC antibody delivery (ScienceDirect 'Development roadmap for SC delivery of high dose biologics', 'Current and emerging strategies...', Tandfonline SC delivery reviews, Erdi et al. 'High Concentration Antibody Formulations Enabled via Thermostable Ionic Liquids' Advanced Materials)",
+      "published": null,
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "General field-level review/explainer content, not attached to a discrete dated event or a specific tracked technology/company.",
+      "verdict": "reject",
+      "reject_reason": "Gate B reject: undated review/explainer articles and academic literature surveys, not a discrete dated event (deal, filing, approval, trial initiation/readout). The one dated academic item found (Erdi et al., ionic liquids paper) has no confirmed 2026 in-window publication date and is not attached to a named company/platform already tracked or proposed for tracking.",
+      "event_key": null,
+      "canonical": false,
+      "corroborating_urls": []
+    }
+  ],
+  "findings": [],
+  "note": "Second run today; a concurrent/earlier run today already produced data/audit_log/2026-09-01.json (window to 09:17 KST) with the same no-new-findings conclusion. This run (window to 09:13 KST, started independently) reached the same conclusion via a separately-run 25-query matrix; no data files required changes."
+}
