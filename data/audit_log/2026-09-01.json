@@ -1,0 +1,152 @@
+{
+  "run_date": "2026-09-01",
+  "window": {"from": "2026-08-31T15:29:00+09:00", "to": "2026-09-01T09:17:00+09:00", "tz": "Asia/Seoul"},
+  "note": "Window anchored to the prior run's actual completion timestamp (2026-08-31-run3.json, closed 15:29 KST), not the 24h/72h fallback -- per Step 1.1, actual prior-run signal takes precedence. ~17.75 hours, standard overnight window (today is Tuesday, no weekend/gap handling needed).",
+  "queries_run": [
+    {"tier": 1, "lang": "en", "query": "Halozyme ENHANZE Hypercon subcutaneous this week"},
+    {"tier": 1, "lang": "en", "query": "Alteogen ALT-B4 Hybrozyme license this week"},
+    {"tier": 1, "lang": "en", "query": "(Xeris XeriJect | Lindy Microglassification | Nanoform | Crystalomics | InventageLab | Prestige IDC224) subcutaneous this week"},
+    {"tier": 1, "lang": "ko", "query": "할로자임 인핸즈 하이퍼콘 고농도"},
+    {"tier": 1, "lang": "ko", "query": "알테오젠 ALT-B4 기술수출"},
+    {"tier": 1, "lang": "ko", "query": "삼성바이오에피스 셀트리온 SC 제형 고농도"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration subcutaneous injection\""},
+    {"tier": 2, "lang": "en", "query": "\"ultra-concentrated antibody formulation\""},
+    {"tier": 2, "lang": "en", "query": "\"high concentration injection\""},
+    {"tier": 2, "lang": "en", "query": "\"high concentration suspension injection technology\""},
+    {"tier": 2, "lang": "en", "query": "subcutaneous biologics delivery platform deal (this week) / hyaluronidase SC formulation deal 2026"},
+    {"tier": 2, "lang": "ko", "query": "고농도 주사 기술 / 고농축 현탁 주사 기술"},
+    {"tier": 3, "lang": "en", "query": "Dupixent dupilumab subcutaneous high concentration this week"},
+    {"tier": 3, "lang": "ko", "query": "듀피젠트 피하주사 고농도"},
+    {"tier": 3, "lang": "en", "query": "site:clinicaltrials.gov high concentration subcutaneous formulation 2026 (FDA/ClinicalTrials.gov registry check)"},
+    {"tier": 4, "lang": "ko", "query": "알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시"},
+    {"tier": 4, "lang": "ko", "query": "식약처 고농도 피하주사 허가 특허청 히알루로니다제 고농도 제형"},
+    {"tier": 4, "lang": "ko", "query": "국산 고농도 항체 제형 기술수출"},
+    {"tier": "extra", "lang": "en", "query": "subcutaneous formulation license announcement \"September 1, 2026\" / \"August 31, 2026\""},
+    {"tier": "extra", "lang": "ko", "query": "알테오젠 8월31일 9월1일 공시 / 셀트리온 삼성바이오에피스 9월1일 SC 제형"},
+    {"tier": "extra", "lang": "en", "query": "WuXiHigh BRL Ipca G2G Bio InnoBioLAMP Alphamab subcutaneous news 2026 (coverage check for remaining tracked technologies)"},
+    {"tier": "extra", "lang": "ko", "query": "아미코젠 히알루로니다제 피하주사 특허"}
+  ],
+  "candidates": [
+    {
+      "raw_title": "Halozyme Announces Global Collaboration and License Agreement with Vertex Pharmaceuticals for Hypercon Technology",
+      "published": "2026-04-07", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "Hypercon microparticle tech directly benchmarks against Hyperion/Thermicra delivery ambitions.",
+      "verdict": "context", "reject_reason": "Published 2026-04-07, outside window; Hypercon already tracked and this deal already logged (halozyme_vertex_2026-04).",
+      "event_key": "halozyme-vertex-hypercon", "canonical": true, "corroborating_urls": ["https://www.pharmaceutical-technology.com/news/halozyme-vertex-deal-hypercon-technology/", "https://www.fiercepharma.com/pharma/vertex-taps-halozyme-and-its-recently-acquired-elektrofi-tech-15m-drug-delivery-deal"]
+    },
+    {
+      "raw_title": "Halozyme Announces Global Collaboration and License Agreement with Incyte to Support the Development of Subcutaneous Formulations of INCA033989 Using ENHANZE",
+      "published": "2026-07-20", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "New ENHANZE license expands Halozyme's high-concentration SC royalty base, the dominant benchmark platform.",
+      "verdict": "context", "reject_reason": "Published July 2026, outside window; ENHANZE already tracked and this deal already logged (halozyme_incyte_2026-07).",
+      "event_key": "halozyme-incyte-enhanze", "canonical": true, "corroborating_urls": ["https://www.prnewswire.com/news-releases/halozyme-announces-global-collaboration-and-license-agreement-with-incyte-to-support-the-development-of-subcutaneous-formulations-of-inca033989-using-its-enhanze-technology-302829283.html"]
+    },
+    {
+      "raw_title": "Alteogen Exclusive License Agreement with a Global Pharmaceutical Company for Hybrozyme-Enabled SC Biologic (undisclosed partner, up to $365M)",
+      "published": "2026-08-05", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "Another ALT-B4 out-license shows continuing competitive traction vs. ENHANZE.",
+      "verdict": "context", "reject_reason": "Published 2026-08-05, before window opens; already tracked (alteogen_undisclosed-pharma_2026-08).",
+      "event_key": "alteogen-undisclosed-365m", "canonical": true, "corroborating_urls": ["https://www.biopharminternational.com/view/alteogen-alt-b4-hybrozyme-subcutaneous-license-deal-365-million", "https://en.sedaily.com/finance/2026/08/05/alteogen-signs-sc-platform-licensing-deal-worth-up-to-5219"]
+    },
+    {
+      "raw_title": "휴온스랩, '하이디퓨즈' 항체 11종 피하주사 제형 특허 등록 (Huons Lab HyDiffuse 11-antibody SC composition patent)",
+      "published": "2026-08-31T09:06:40+09:00", "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "New PK detail (Cmax/AUC uplift across 11 antibodies incl. dupilumab) quantifies HyDiffuse's high-concentration absorption advantage relevant to the Dupixent benchmark.",
+      "verdict": "context", "reject_reason": "Published 2026-08-31T09:06 KST, before this window opens (15:29 KST same day) and before the prior run's own window closed; this is the same event already logged as huonslab_hydiffuze_11antibody-patent_2026-08-31 in the prior run -- not a new item.",
+      "event_key": "huonslab-hydiffuze-11ab-patent", "canonical": true, "corroborating_urls": ["https://www.mt.co.kr/thebio/2026/08/31/2026083108564041969", "https://www.ajunews.com/view/20260831090640849", "https://kormedi.com/2856249/"]
+    },
+    {
+      "raw_title": "아미코젠, 인간 히알루로니다제 국내 특허 2건 취득 (Amicogen non-PH20 human hyaluronidase patents, avoids Halozyme/Alteogen IP)",
+      "published": "2026-07-14 (reported ~2026-07-21)", "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "A previously untracked Korean entrant with a hyaluronidase route around the ENHANZE/ALT-B4 IP estate -- candidate for a future tracked-entity addition, not loggable this run.",
+      "verdict": "context", "reject_reason": "Patent grant dated 2026-07-14, well outside window. Amicogen is not currently a tracked entity; flagged for consideration in a future run, no loggable event this cycle.",
+      "event_key": "amicogen-hyaluronidase-patent", "canonical": true, "corroborating_urls": ["https://www.newspim.com/news/view/20260721000151", "https://www.hitnews.co.kr/news/articleView.html?idxno=53227"]
+    },
+    {
+      "raw_title": "지투지바이오·셀트리온, '초고농축 항체 SC' 기술 협력 MOU 체결 (G2G Bio x Celltrion InnoBioLAMP MOU)",
+      "published": "2026-07-30", "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary",
+      "gate_d": "new", "gate_e": "G2G Bio InnoBioLAMP antibody-SC validation with Celltrion.",
+      "verdict": "context", "reject_reason": "Published 2026-07-30, outside window; already tracked (g2gbio_celltrion_mou_2026-07-30).",
+      "event_key": "g2gbio-celltrion-mou", "canonical": true, "corroborating_urls": ["https://www.etoday.co.kr/news/view/2609215", "https://www.newspim.com/news/view/20260730000944", "https://www.medigatenews.com/news/1655480482", "https://www.thebionews.net/news/articleView.html?idxno=26805"]
+    },
+    {
+      "raw_title": "삼성에피스 '빅파마 독점' 고용량 SC 기술 성공 (Samsung Bioepis proprietary PH20-based high-dose SC tech)",
+      "published": "~2026-07 (exact date unconfirmed; sedaily.com blocked)", "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary",
+      "gate_d": "new", "gate_e": "Independent hyaluronidase route for high-dose SC conversion, relevant competitive context.",
+      "verdict": "context", "reject_reason": "Predates window (corroborating outlets place it in July 2026); Samsung Bioepis PH20-based SC tech already tracked.",
+      "event_key": "samsungbioepis-ph20-sc-tech", "canonical": true, "corroborating_urls": ["https://www.sisajournal-e.com/news/articleView.html?idxno=422459", "https://www.etoday.co.kr/news/view/2603611", "https://www.thebionews.net/news/articleView.html?idxno=26363"]
+    },
+    {
+      "raw_title": "Celltrion Herzuma SC (CT-P6 SC) EMA/MFDS filings",
+      "published": "2026-04-30 / 2026-05-28", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "Regulatory filing progress for an already-tracked high-concentration SC biosimilar.",
+      "verdict": "context", "reject_reason": "Filings dated April/May 2026, outside window; already tracked.",
+      "event_key": "celltrion-herzuma-sc-filings", "canonical": true, "corroborating_urls": ["https://www.pearceip.law/2026/05/28/celltrion-submits-korean-application-for-biosimilar-trastuzumab-sc/"]
+    },
+    {
+      "raw_title": "LEQEMBI IQLIK (lecanemab-irmb) subcutaneous autoinjector now available in the U.S.",
+      "published": "2026-08-24", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "Commercial launch of an already-tracked high-concentration SC device.",
+      "verdict": "context", "reject_reason": "Launch dated 2026-08-24, before window opens; already tracked.",
+      "event_key": "leqembi-iqlik-us-launch", "canonical": true, "corroborating_urls": ["https://media-us.eisai.com/2026-08-24-LEQEMBI-IQLIK-R-lecanemab-irmb-Autoinjector-for-Initiation-of-Therapy-Now-Available-in-the-U-S-for-Early-Alzheimers-Disease", "https://investors.biogen.com/news-releases/news-release-details/fda-approves-leqembi-iqlikr-lecanemab-irmb-subcutaneous"]
+    },
+    {
+      "raw_title": "Ipca Laboratories x BRL global licensing collaboration for high-concentration SC biologics platform",
+      "published": "2026-06-12", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary",
+      "gate_d": "new", "gate_e": "Licensing of BRL's high-concentration SC platform to Ipca.",
+      "verdict": "context", "reject_reason": "Dated 2026-06-12, outside window; already tracked.",
+      "event_key": "ipca-brl-license", "canonical": true, "corroborating_urls": ["https://medicaldialogues.in/amp/news/industry/pharma/ipca-labs-partners-brl-to-develop-next-generation-subcutaneous-biologics-for-cancer-autoimmune-diseases-172749"]
+    },
+    {
+      "raw_title": "Merck Keytruda Qlex (SC pembrolizumab, ALT-B4-enabled) patent-dispute rulings (US PTAB, UK, Netherlands)",
+      "published": "2026-05 through 2026-07", "lang": "en",
+      "gate_a": "reject", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "N/A -- scope reject.",
+      "verdict": "reject", "reject_reason": "Gate A reject: IP-litigation outcome for an already-approved SC conversion, not a new concentration/volume/platform claim; also outside window.",
+      "event_key": "keytruda-qlex-patent-disputes", "canonical": true, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Dupixent (dupilumab) formulation-strength / PK reference data",
+      "published": null, "lang": "en/ko",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "Static labeling/PK reference data, not a discrete dated event.",
+      "verdict": "reject", "reject_reason": "Gate B reject: undated product-label/PK reference material, no discrete new event.",
+      "event_key": "dupixent-formulation-reference", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Peer-reviewed reviews on ultra-high-concentration antibody formulation strategies (ionic liquids, glassy surfactants, TFF, solvent dehydration)",
+      "published": "various, none in window", "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "General scientific background, several already reflected in tracked technologies.",
+      "verdict": "reject", "reject_reason": "Gate B reject: generic/undated review-style literature, not discrete dated events, not confirmed within window.",
+      "event_key": "hcaf-literature-review", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Samsung Biologics S-HiCon high-concentration formulation platform launch",
+      "published": "2024-10 (original launch)", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "Already-tracked platform; no new dated event surfaced.",
+      "verdict": "reject", "reject_reason": "Original launch far outside window; only resurfaced as background context, no new dated activity found.",
+      "event_key": "samsung-s-hicon-launch", "canonical": true, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Generic search noise: '고농도 주사 기술' resolving to prolotherapy / ultrasound-guided steroid joint injections",
+      "published": null, "lang": "ko",
+      "gate_a": "reject", "gate_b": "reject", "gate_c": "unverified",
+      "gate_d": "new", "gate_e": "N/A -- unrelated to SC biologics delivery.",
+      "verdict": "reject", "reject_reason": "Gate A reject: unrelated medical procedures, not biologics SC delivery technology.",
+      "event_key": "prolotherapy-noise", "canonical": false, "corroborating_urls": []
+    }
+  ],
+  "findings": []
+}
