@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T13:12:36+09:00",
+  "generated_at": "2026-09-02T00:16:13+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
@@ -159,7 +159,7 @@
           "relevance": "High",
           "confidence": "Secondary",
           "flagged": false,
-          "new_in_digest": true
+          "new_in_digest": false
         }
       ],
       "is_internal": false,
@@ -1277,7 +1277,7 @@
       "relevance": "High",
       "confidence": "Secondary",
       "flagged": false,
-      "new_in_digest": true,
+      "new_in_digest": false,
       "technology_id": "huonslab_hydiffuze",
       "technology_name": "HyDiffuse (rHuPH20-based SC delivery platform)"
     },

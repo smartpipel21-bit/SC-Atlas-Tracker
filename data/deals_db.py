@@ -810,6 +810,6 @@ DEALS = [
         'relevance': 'High',
         'confidence': 'Secondary',
         'flagged': False,
-        'new_in_digest': True,
+        'new_in_digest': False,
     },
 ]
