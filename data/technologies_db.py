@@ -88,7 +88,7 @@ TECHNOLOGIES = [
         'needle_size': 'Not disclosed',
         'mechanism': 'Recombinant human hyaluronidase that temporarily hydrolyzes hyaluronan in the extracellular matrix, permitting large-volume IV-to-SC conversion of existing biologics.',
         'date_added': '2026-07-12',
-        'last_reviewed': '2026-07-14',
+        'last_reviewed': '2026-09-03',
     },
     {
         'id': 'genentech_unbranded_sc',
@@ -153,7 +153,7 @@ TECHNOLOGIES = [
         'needle_size': 'Not disclosed',
         'mechanism': 'Microfluidics-derived microsphere/microparticle drug delivery platform that enables ultra-high-concentration SC dosing without a co-formulated hyaluronidase enzyme. Targeted at monoclonal antibodies, antibody-drug conjugates (ADCs), and bispecific/fusion proteins.',
         'date_added': '2026-07-12',
-        'last_reviewed': '2026-07-14',
+        'last_reviewed': '2026-09-03',
     },
     {
         'id': 'samsungbio_s-hicon',
