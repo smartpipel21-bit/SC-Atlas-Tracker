@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-03T00:15:06+00:00",
+  "generated_at": "2026-09-04T00:14:58+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
   },
-  "last_updated": "2026-09-03",
+  "last_updated": "2026-09-04",
   "stage_order": [
     "Research / Academic",
     "Preclinical",
@@ -57,7 +57,7 @@
     "tracked": 26,
     "comparable": 15,
     "commercial": 8,
-    "deals_tracked": 47,
+    "deals_tracked": 48,
     "flagged_deals": 5
   },
   "internal_targets": [
@@ -132,6 +132,55 @@
   ],
   "technologies": [
     {
+      "id": "eisai_biogen_leqembi_iqlik_sc",
+      "name": "LEQEMBI IQLIK (lecanemab-irmb SC autoinjector formulation)",
+      "company": "Eisai / Biogen",
+      "stage_raw": "Approved / Commercially available (SC maintenance dose approved Aug 2025; SC initiation dose approved US 2026-07-13; US autoinjector launch 2026-08-24; China NMPA approval of the SC/initiation formulation 2026-09-03)",
+      "stage_bucket": "Approved / Marketed",
+      "type": "Other",
+      "concentration_text": "SC formulation 200 mg/mL (vs. 100 mg/mL for the IV formulation); 500 mg initiation dose given as two 250 mg/1.25 mL injections, each delivered in ~15 seconds; 360 mg/1.8 mL autoinjector used for maintenance dosing",
+      "concentration_numeric": 200.0,
+      "concentration_bucket": "< 300 mg/mL",
+      "needle_size": "29-gauge fixed 1/2-inch needle (single-dose prefilled autoinjector)",
+      "mechanism": "High-concentration (200 mg/mL) aqueous liquid formulation of lecanemab-irmb (anti-amyloid-beta protofibril monoclonal antibody) -- roughly double the concentration of the approved IV formulation (100 mg/mL) -- delivered via a single-dose prefilled autoinjector in approximately 15 seconds per injection. No hyaluronidase or particle/suspension technology involved: a straightforward high-concentration liquid reformulation paired with a fast, fixed-needle autoinjector device, enabling at-home SC initiation and maintenance dosing as an alternative to IV infusion. Included as an external cross-indication benchmark (Alzheimer's disease, not oncology/immunology) for a commercially-validated high-concentration mAb SC delivery technology. Now approved in both the US and China (NMPA, 2026-09-03) on the same 500 mg once-weekly / two 250 mg injection regimen.",
+      "date_added": "2026-08-27",
+      "last_reviewed": "2026-09-04",
+      "deals": [
+        {
+          "deal_id": "eisai_biogen_leqembiiqlik_china-approval_2026-09-03",
+          "partner": "N/A (regulatory approval; Eisai/Biogen own product)",
+          "deal_type": "Regulatory approval (geographic expansion)",
+          "date": "2026-09-03",
+          "date_sort_key": 20260903,
+          "summary": "China's National Medical Products Administration (NMPA) approved the subcutaneous formulation of LEQEMBI (lecanemab) as an initiation treatment for mild cognitive impairment or mild dementia due to Alzheimer's disease, using the same 500 mg once-weekly regimen (two consecutive 250 mg injections) as the U.S. SC-AI/IQLIK launch logged 2026-08-24. The China BLA was accepted January 2026 and granted Priority Review; once-weekly SC administration demonstrated exposure equivalent to once-every-two-weeks IV dosing with similar clinical/biomarker benefits. Launch is planned within Eisai's FY2026 (ending March 31, 2027). This is a geographic-expansion event for the already-tracked technology, not a new concentration/formulation claim -- the 200 mg/mL SC vs. 100 mg/mL IV figure already on file is unchanged.",
+          "molecule": "Lecanemab-irmb (Leqembi)",
+          "source_name": "Eisai Co., Ltd. / Biogen Inc. (GlobeNewswire)",
+          "source_url": "https://www.globenewswire.com/news-release/2026/09/03/3355628/0/en/leqembi-lecanemab-subcutaneous-formulation-as-an-initiation-treatment-for-early-alzheimer-s-disease-approved-in-china.html",
+          "relevance": "Medium",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": true
+        },
+        {
+          "deal_id": "eisai_biogen_leqembiiqlik_launch_2026-08-24",
+          "partner": "N/A (commercial launch; Eisai/Biogen own product)",
+          "deal_type": "Commercial launch / Product availability announcement",
+          "date": "2026-08-24",
+          "date_sort_key": 20260824,
+          "summary": "Eisai and Biogen announced that LEQEMBI IQLIK (lecanemab-irmb) autoinjector is now commercially available in the U.S. for SC initiation therapy in early Alzheimer's disease: 500 mg given once weekly as two consecutive 250 mg/1.25 mL injections, each delivered in approximately 15 seconds. This follows FDA approval of the initiation-dose sBLA on 2026-07-13 (out-of-window for this run; context only) and is separate from the SC maintenance-dose formulation (360 mg/1.8 mL) approved in August 2025. SC formulation is 200 mg/mL vs. 100 mg/mL for the IV formulation. Patients may switch between IV and SC administration at any point in the treatment course. NEW ENTITY - first log of Eisai/Biogen lecanemab in this tracker; included as an external cross-indication (Alzheimer's, not oncology/immunology) benchmark for commercially-validated high-concentration mAb SC autoinjector delivery.",
+          "molecule": "Lecanemab-irmb (Leqembi)",
+          "source_name": "Biogen Inc. / Eisai Co. Ltd. (GlobeNewswire)",
+          "source_url": "https://www.globenewswire.com/news-release/2026/08/24/3349698/0/en/leqembi-iqlik-lecanemab-irmb-autoinjector-for-initiation-of-therapy-now-available-in-the-u-s-for-early-alzheimer-s-disease.html",
+          "relevance": "Medium",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": false
+        }
+      ],
+      "is_internal": false,
+      "is_reference": false
+    },
+    {
       "id": "alt-b4_hybrozyme",
       "name": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)",
       "company": "Alteogen",
@@ -159,7 +208,7 @@
           "relevance": "High",
           "confidence": "Primary",
           "flagged": false,
-          "new_in_digest": true
+          "new_in_digest": false
         },
         {
           "deal_id": "alteogen_undisclosed-pharma_2026-08",
@@ -268,7 +317,7 @@
           "relevance": "Medium",
           "confidence": "Secondary",
           "flagged": false,
-          "new_in_digest": true
+          "new_in_digest": false
         },
         {
           "deal_id": "inventagelab_bio-usa_2026-06",
@@ -331,40 +380,6 @@
           "source_url": "https://www.mt.co.kr/thebio/2026/08/31/2026083108564041969",
           "relevance": "High",
           "confidence": "Secondary",
-          "flagged": false,
-          "new_in_digest": false
-        }
-      ],
-      "is_internal": false,
-      "is_reference": false
-    },
-    {
-      "id": "eisai_biogen_leqembi_iqlik_sc",
-      "name": "LEQEMBI IQLIK (lecanemab-irmb SC autoinjector formulation)",
-      "company": "Eisai / Biogen",
-      "stage_raw": "Approved / Commercially available (SC maintenance dose approved Aug 2025; SC initiation dose approved 2026-07-13; initiation-dose autoinjector commercially launched in the US 2026-08-24)",
-      "stage_bucket": "Approved / Marketed",
-      "type": "Other",
-      "concentration_text": "SC formulation 200 mg/mL (vs. 100 mg/mL for the IV formulation); 500 mg initiation dose given as two 250 mg/1.25 mL injections, each delivered in ~15 seconds; 360 mg/1.8 mL autoinjector used for maintenance dosing",
-      "concentration_numeric": 200.0,
-      "concentration_bucket": "< 300 mg/mL",
-      "needle_size": "29-gauge fixed 1/2-inch needle (single-dose prefilled autoinjector)",
-      "mechanism": "High-concentration (200 mg/mL) aqueous liquid formulation of lecanemab-irmb (anti-amyloid-beta protofibril monoclonal antibody) -- roughly double the concentration of the approved IV formulation (100 mg/mL) -- delivered via a single-dose prefilled autoinjector in approximately 15 seconds per injection. No hyaluronidase or particle/suspension technology involved: a straightforward high-concentration liquid reformulation paired with a fast, fixed-needle autoinjector device, enabling at-home SC initiation and maintenance dosing as an alternative to IV infusion. Included as an external cross-indication benchmark (Alzheimer's disease, not oncology/immunology) for a commercially-validated high-concentration mAb SC delivery technology.",
-      "date_added": "2026-08-27",
-      "last_reviewed": "2026-08-27",
-      "deals": [
-        {
-          "deal_id": "eisai_biogen_leqembiiqlik_launch_2026-08-24",
-          "partner": "N/A (commercial launch; Eisai/Biogen own product)",
-          "deal_type": "Commercial launch / Product availability announcement",
-          "date": "2026-08-24",
-          "date_sort_key": 20260824,
-          "summary": "Eisai and Biogen announced that LEQEMBI IQLIK (lecanemab-irmb) autoinjector is now commercially available in the U.S. for SC initiation therapy in early Alzheimer's disease: 500 mg given once weekly as two consecutive 250 mg/1.25 mL injections, each delivered in approximately 15 seconds. This follows FDA approval of the initiation-dose sBLA on 2026-07-13 (out-of-window for this run; context only) and is separate from the SC maintenance-dose formulation (360 mg/1.8 mL) approved in August 2025. SC formulation is 200 mg/mL vs. 100 mg/mL for the IV formulation. Patients may switch between IV and SC administration at any point in the treatment course. NEW ENTITY - first log of Eisai/Biogen lecanemab in this tracker; included as an external cross-indication (Alzheimer's, not oncology/immunology) benchmark for commercially-validated high-concentration mAb SC autoinjector delivery.",
-          "molecule": "Lecanemab-irmb (Leqembi)",
-          "source_name": "Biogen Inc. / Eisai Co. Ltd. (GlobeNewswire)",
-          "source_url": "https://www.globenewswire.com/news-release/2026/08/24/3349698/0/en/leqembi-iqlik-lecanemab-irmb-autoinjector-for-initiation-of-therapy-now-available-in-the-u-s-for-early-alzheimer-s-disease.html",
-          "relevance": "Medium",
-          "confidence": "Primary",
           "flagged": false,
           "new_in_digest": false
         }
@@ -1295,6 +1310,23 @@
   ],
   "recent_activity": [
     {
+      "deal_id": "eisai_biogen_leqembiiqlik_china-approval_2026-09-03",
+      "partner": "N/A (regulatory approval; Eisai/Biogen own product)",
+      "deal_type": "Regulatory approval (geographic expansion)",
+      "date": "2026-09-03",
+      "date_sort_key": 20260903,
+      "summary": "China's National Medical Products Administration (NMPA) approved the subcutaneous formulation of LEQEMBI (lecanemab) as an initiation treatment for mild cognitive impairment or mild dementia due to Alzheimer's disease, using the same 500 mg once-weekly regimen (two consecutive 250 mg injections) as the U.S. SC-AI/IQLIK launch logged 2026-08-24. The China BLA was accepted January 2026 and granted Priority Review; once-weekly SC administration demonstrated exposure equivalent to once-every-two-weeks IV dosing with similar clinical/biomarker benefits. Launch is planned within Eisai's FY2026 (ending March 31, 2027). This is a geographic-expansion event for the already-tracked technology, not a new concentration/formulation claim -- the 200 mg/mL SC vs. 100 mg/mL IV figure already on file is unchanged.",
+      "molecule": "Lecanemab-irmb (Leqembi)",
+      "source_name": "Eisai Co., Ltd. / Biogen Inc. (GlobeNewswire)",
+      "source_url": "https://www.globenewswire.com/news-release/2026/09/03/3355628/0/en/leqembi-lecanemab-subcutaneous-formulation-as-an-initiation-treatment-for-early-alzheimer-s-disease-approved-in-china.html",
+      "relevance": "Medium",
+      "confidence": "Primary",
+      "flagged": false,
+      "new_in_digest": true,
+      "technology_id": "eisai_biogen_leqembi_iqlik_sc",
+      "technology_name": "LEQEMBI IQLIK (lecanemab-irmb SC autoinjector formulation)"
+    },
+    {
       "deal_id": "alteogen_novartis_2026-09",
       "partner": "Novartis",
       "deal_type": "Option and Exclusive License Agreement",
@@ -1307,7 +1339,7 @@
       "relevance": "High",
       "confidence": "Primary",
       "flagged": false,
-      "new_in_digest": true,
+      "new_in_digest": false,
       "technology_id": "alt-b4_hybrozyme",
       "technology_name": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)"
     },
@@ -1324,7 +1356,7 @@
       "relevance": "Medium",
       "confidence": "Secondary",
       "flagged": false,
-      "new_in_digest": true,
+      "new_in_digest": false,
       "technology_id": "inventagelab_ivl_biofluidic",
       "technology_name": "IVL-BioFluidic (microfluidic/microsphere-based SC platform)"
     },
@@ -1531,23 +1563,6 @@
       "new_in_digest": false,
       "technology_id": "samsungbio_s-hicon",
       "technology_name": "S-HiCon (CDMO high-concentration formulation development platform)"
-    },
-    {
-      "deal_id": "ipca_brl_license_2026-06",
-      "partner": "Ipca Laboratories",
-      "deal_type": "Licensing (global)",
-      "date": "2026-06-12",
-      "date_sort_key": 20260612,
-      "summary": "Global licensing collaboration granting Ipca access to BRL's proprietary high-concentration SC biologics delivery platform for mAb products in oncology and inflammatory disease.",
-      "molecule": "Undisclosed (multiple mAb targets)",
-      "source_name": "BioSpectrum India / Medical Dialogues / Whalesbook",
-      "source_url": "https://www.biospectrumindia.com/news/95/27952/ipca-labs-announces-global-licensing-collaboration-with-bhamis-research-laboratory-for-monoclonal-antibodies.html",
-      "relevance": "Medium",
-      "confidence": "Not assessed",
-      "flagged": false,
-      "new_in_digest": false,
-      "technology_id": "brl_hc_sc_platform",
-      "technology_name": "BRL high-concentration SC biologics platform"
     }
   ]
 }
